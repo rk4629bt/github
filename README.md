@@ -5,18 +5,26 @@
 
 ## Использование
 ### Импортирование данных себе
-```git clone ssh://git@github.com:rk4629bt/github.git;
+```
+git clone ssh://git@github.com:rk4629bt/github.git;
 cd github;
 git config --local color.ui true;
 git config --local user.email email@email.ru;
-git config --local user.name "User Name";```
+git config --local user.name "User Name";
+```
 
 ### Монтировать
-```echo "Пароль шифрования" > ./passwd;
-./mount.bash```
+```
+echo "Пароль шифрования" > ./passwd;
+./mount.bash
+```
 
 ### Отмонтировать
-```./umount.bash```
+```
+./umount.bash
+```
 
 ### Экспортировать
-``` ./autocommit.bash```
+```
+./autocommit.bash
+```
